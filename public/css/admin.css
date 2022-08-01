@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,700&display=swap');
+
+body{
+  min-height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+/* .container{
+  overflow: hidden;
+} */
+.container.fixed-bottom{ 
+  overflow: hidden;
+}
+
+  /* Dashboard */
+
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  background-color:rgba(158, 158, 158, 0.753) !important;
+  bottom: 0;
+  left: 0;
+  z-index: 100; 
+  padding: 48px 0 0; 
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+.navbar-brand {
+  text-align: center;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1.5rem;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .navbar-toggler {
+  top: .25rem;
+  right: 1rem;
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  /* border-radius: 0; */
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+.dash-btn{
+  border: 1px solid white !important;
+  margin-bottom: 20px;
+/* padding: 20px; */
+font-size: 20px;
+color: rgb(255, 255, 255);
+  border: 1px solid black;
+  margin-top: -24px;
+/* height: 90px; */
+border-radius: 0 !important;
+background-color: #4fad47;
+}
+.dash-btn:hover{
+  color: rgb(255, 255, 255) !important;
+}
+.dash-btn:focus{
+  color: rgb(255, 255, 255) !important;
+  outline: none !important;
+  box-shadow: none;
+}
+.dash-btn-active{
+  color: black !important;
+  background-color: white !important;
+}
+.dash-btn-active:hover{
+  color: black !important;
+ 
+}
+.dash-btn-active:focus{
+  color: black !important;
+
+}
+.bg-dark{
+  background-color: #4fad47 !important;
+}
+.anlyze-box{
+  width:300px;
+  color: white !important;
+}
+.fist-three{
+  display: flex;
+  flex-wrap: nowrap;
+}
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff !important;
+}
+
+ /* Product */
+
+ .dash-text{
+   
+   margin-left: 340px;
+ }
+
+ .product-btn{
+    
+   margin-top:30px;
+   color:white;
+ }
+ .product-btn:hover{
+  
+  color:white;
+}
+.product-btn:focus{
+  outline: none !important;
+  box-shadow: none;
+ 
+}
+
+
+/* admin login */
+
+
+.container{
+  
+  margin: auto;
+  width: 500px;
+  max-width: 90%;
+}
+.container form{
+
+  font-family: Oswald, sans-serif;
+  width: 100%;
+  /* height: 100%; */
+  padding: 20px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.container img{
+  margin-top:60px;
+  /* justify-content: center;
+  text-align: center; */
+  margin-bottom: 20px;
+  margin-left: 120px;
+}
+.container form .form-control{
+  width: 100%;
+  height: 35px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid silver;
+  margin: 10px 0 10px 0;
+  padding: 0 10px;
+}
+/* .container form .forgot{
+  text-decoration: none;
+  color: rgb(97, 86, 86);
+  margin-left: 380px;
+}
+.container form .forgot:hover{
+  color: #000;
+} */
+.container form .btn{
+  margin-left: 28%;
+  transform: translateY(-50%);
+  width: 200px;
+  height: 34px;
+  border: none;
+  outline: none;
+  background: #49e93a;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+.container form .btn:hover{
+  color: #fff;
+  background: #4fad47;
+}
+.text-danger{
+  color: rgb(243, 26, 26);
+}
+
+/* supplier */
+
+  
+  .sup-btn{
+    color: white;
+    background-color: #4FAD47 !important;
+  }
+  .sup-btn:hover{
+    color: white;
+  }
+  .supsummary-tbl{
+    margin-left: 380px;
+  }
+
+  /* view order page */
+.view-tbl{
+  margin-left: 330px;
+  }
+  .adminOrderViewTables{
+    font-size: 14px;
+    margin-left: 350px;
+  }
+  .adminOrderInput{
+    width: 120px;
+  }
+  .orderUpdate-btn{
+    text-align: center;
+    padding-top: 20px;
+}
+.adminOrder-view-btn {
+  background-color: #49e93a !important;
+  border: 1px solid #49e93a !important;
+  font-size: 18px;
+  
+  /* margin-left: 400px; */
+}
+/* Report and view Report */
+.Reportanlyze-box{
+  width:360px;
+  height: 240px !important;
+color: white !important;
+}
+.reportfist-two{
+
+  display: flex;
+    flex-wrap: nowrap;
+}
+
+.rbg-dark{
+  background-color: #4FAD47 !important;
+}
+.rep-3 {
+  padding: 4rem!important;
+}
+.report-text {
+  color: #fff;
+  text-decoration: none !important;
+}
+.report-text:hover {
+  color: #fff;
+  text-decoration: none !important;
+}
+/* report */
+.reportInput{
+  border: 1px solid black;
+
+}
+.reportLable{
+  color: black;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 20px;
+}
+
+.reportSubmit {
+  background-color: black !important;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 50px ;
+  padding-right: 50px ;
+}
+
+.reportSubmit:hover {
+  background-color: #555 !important;
+}
+.reportSubmit:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* report table */
+.adminReportTables th {
+  text-align: center;
+  background-color: black !important;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.adminReportTables td {
+  vertical-align: middle;
+  color: black;
+  text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+.adminReportOptionBtn {
+  background-color: black;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  border: 1px solid black;
+}
+.adminReportOptionBtn:hover {
+  background-color: #555 !important;
+  color: white !important;
+  border: 1px solid #555 !important
+}
+.adminReportOptionBtn:focus {
+  background-color: #555 !important;
+  color: white !important;
+  border: 1px solid #555 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+  background-color: black !important;
+}
+.dropdown-item.active{
+  background-color: #555;
+}
+.dropdown-item:checked{
+  background-color: #555 !important;
+}
+
+ /* Deliveries(delivery person) */
+
+/* .dperson-dash-text{
+   
+  margin-left: 399px;
+} */
+
+.correct button{
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.Dpstatus{
+  width: fit-content;
+  height: fit-content;
+margin-left: 89px;
+}
+
+.Dpstatus:focus{
+  outline: none !important;
+  box-shadow: none;
+  border-color: none !important;
+}
+
+/* date time report view */
+.datetimepiker1{
+margin-top: 100px;
+ width: 300px;
+ margin-left: 350px;
+}
+.datetimepiker2{
+  margin-top: 100px;
+  width: 300px;
+  margin-left: 190px;
+ }
+ .displayReport{
+  text-align: center;
+  padding-top: 80px;
+  padding-left: 220px;
+ }
+
+ /* table */
+.adminReportTables th {
+  text-align: center;
+  background-color: black !important;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.adminReportTables td {
+  vertical-align: middle;
+  color: black;
+  text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+
+}
+
+.adminReportOptionBtn {
+  background-color: black;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  border: 1px solid black;
+}
+.adminReportOptionBtn:hover {
+  background-color: #555 !important;
+  color: white !important;
+  border: 1px solid #555 !important
+}
+.adminReportOptionBtn:focus {
+  background-color: #555 !important;
+  color: white !important;
+  border: 1px solid #555 !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+  background-color: black !important;
+}
+.dropdown-item.active{
+  background-color: #555;
+}
+.dropdown-item:checked{
+  background-color: #555 !important;
+}
